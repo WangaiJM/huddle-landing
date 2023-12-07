@@ -1,0 +1,27 @@
+.footer {
+  padding: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4rem;
+}
+.footer__icons {
+  display: flex;
+}
+.icons {
+  margin-left: 1em;
+  font-size: 2em;
+  cursor: pointer;
+  color: var(--clr-white);
+  border-radius: 50%;
+  border: 2px solid var(--clr-white);
+  padding: 0.4em;
+}
+.icons:hover {
+  color: var(--clr-secondary);
+  border-color: var(--clr-secondary);
+}
+@media (max-width: 900px) {
+  .footer {
+    justify-content: center;
+  }
+}
