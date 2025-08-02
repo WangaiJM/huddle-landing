@@ -32,6 +32,7 @@ h4,
 h5,
 h6 {
   font-family: "poppins", sans-serif;
+  color: var(--very-dark-cyan);
 }
 ul,
 ol {
@@ -89,8 +90,8 @@ svg {
   padding: 2rem;
 
   &__logo {
-    height: 1.5rem;
-    width: 9rem;
+    height: 3rem;
+    width: 15rem;
   }
   &__cta {
     .btn__secondary {
@@ -101,14 +102,12 @@ svg {
     padding: 4rem;
 
     &__logo {
-      width: 12.5rem;
-      height: 4rem;
+      width: 20rem;
+      height: 8rem;
     }
     &__cta {
       .btn__secondary {
-        height: 100%;
-        width: 100%;
-        padding: 1rem 1.5rem;
+        padding: 1.2rem 2rem;
       }
     }
   }
@@ -132,15 +131,20 @@ svg {
   }
   @media (min-width: $min-screen) {
     min-height: 250px;
-
-    h1,
-    p {
+    h1 {
+      font-size: 4rem;
       margin-bottom: 2.5rem;
     }
+
     p {
-      width: 306px;
+      width: 50rem;
       margin: 0 auto 2.5rem;
       font-size: 1.6rem;
+    }
+    .btn {
+      font-size: 2rem;
+      padding: 2rem 4rem;
+      border-radius: 10rem;
     }
   }
 }
